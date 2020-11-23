@@ -1,11 +1,11 @@
-var mySwiper = new Swiper('.swiper-1', {
+var mySwiper1 = new Swiper('.swiper-1', {
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
     }
-});
+})
 
-var mySwiper = new Swiper('.swiper-2', {
+var mySwiper2 = new Swiper('.swiper-2', {
     // Optional parameters
     loop: true,
 
@@ -14,9 +14,9 @@ var mySwiper = new Swiper('.swiper-2', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     }
-});
+})
 
-var mySwiper = new Swiper('.swiper-3', {
+var mySwiper3 = new Swiper('.swiper-3', {
     // Optional parameters
     autoplay: {
         delay: 2000,
@@ -24,9 +24,9 @@ var mySwiper = new Swiper('.swiper-3', {
     direction: 'vertical',
     loop: true,
     simulateTouch: false,
-});
+})
 
-var mySwiper = new Swiper('.swiper-container', {
+var mySwiper4 = new Swiper('.swiper-container', {
     // Optional parameters
     loop: true,
 
@@ -34,9 +34,9 @@ var mySwiper = new Swiper('.swiper-container', {
     pagination: {
         el: '.swiper-pagination',
     },
-});
+})
 
-var mySwiper = new Swiper('.swiper-5', {
+var mySwiper5 = new Swiper('.swiper-5', {
     // Responsive breakpoints
     breakpoints: {
         // when window width is >= 320px
@@ -59,4 +59,19 @@ var mySwiper = new Swiper('.swiper-5', {
             spaceBetween: 30
         }
     }
-});
+})
+
+var mySwiper6 = new Swiper('.swiper-6', {
+    loop: true,
+    simulateTouch: false,
+    effect:'flip',
+
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    }
+})
